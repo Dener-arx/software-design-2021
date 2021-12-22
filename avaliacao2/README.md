@@ -3,7 +3,7 @@ Passo 1
     - Encontrar todas as possíveis combinações de 4 números(entre 1 e 16) cuja soma resulta em 34. (86 combinações no total).
     - Essas combinações de números devem ser salvas em uma tabela. 
     - A tabela 86x4 deve ser preenchida dos números maiores aos menores. (16,15,2,1) (16,14,3,1) (16,13,4,1)...
-    - Uma segunda tabela será criada a partir desta, indicando em quais linhas cada número pode ser encontrado. (Ex. 16 -> 1,2,3,4...)(Para melhor localização dos números menores.)
+    - Uma segunda tabela será criada a partir desta, indicando em quais linhas cada número pode ser encontrado. (Ex. 16 -> 1,2,3,4...)(Para melhor localização dos números)
     
 Passo 2
 
