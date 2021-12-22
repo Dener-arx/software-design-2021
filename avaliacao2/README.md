@@ -12,8 +12,6 @@ Passo 2
         - O valor da soma de todas as linhas e colunas, bem como das diagonais deve ser contabilizados, reduzindo de 34 o valor das áreas preenchidas.
         - Se não for possível zerar com os números não utilizados, uma outra iteração deve ser iniciada.
         - EX.: Linha 1 = (16,15,2,1). Coluna 1 = (16,14,3,1). Não é possível, sendo que o 1 já está presente em outro local.
-        ![alt text](https://user-images.githubusercontent.com/54905778/147150084-be0fbe67-a890-4bb0-803b-bf1bb15464e0.png)
-
      - Completando as casas adjacentes a (1,1) passamos para a próxima casa (1,2) que teria valor (15) e repetimos o processo.
      - O mesmo será feito para as casas (1,3), (1,4), (2,1) e assim por diante, até que um quadrado mágico perfeito seja concluído, ou até uma impossibilidade acontecer.
      
