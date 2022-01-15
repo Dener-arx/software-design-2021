@@ -29,6 +29,24 @@ Caso todas as linhas tenham sido preenchidas corretamente, será feita a soma da
 
 Portanto para cada conjunto de 2 combinações, teremos 12*12 = 124 possibilidades, que devem ser executadas de acordo com o passo 3.
 
+### Análise Kyriosdata
+
+**Problema1.** No passo 5 de Kyriosdata faz-se a apresentação de todas as possíveis matrizes derivadas causadas pelas diferentes permutações das combinações, incluindo aquelas consideradas espelhos(como apresentado no passo 4 presente).
+Desta forma, pode se dizer que cada matriz derivada possui um oposto dentre todas as 24x24x24x24 possibilidades apresentadas.
+E portanto dos 7040 resultados obtidos podemos considerar que metade deles são espelhos verticais. 
+7040/2 = 3520
+
+**Problema2.** Da disposição das linhas. Supondo que exista uma sequencia de linhas 1,2,3,4(diferentes combinações). 
+Devido ao fato de que todas as possibilidades devem ser testadas(Força Bruta), certamente tambem existirá uma combinação 4,3,2,1 para cada conjunto de combinações. 
+Portanto dos resultados obtidos podemos considerar que metade deles são espelhos horizontais.
+3520/2 = 1760
+
+**Observação1.** Eliminando os espelhos verticais e horizontais, podemos notar que o resultado total de matrizes é 1760, que dividido por 2 é exatamente 880. 
+De certa forma se considerarmos que metade desse resultado(1760) são espelhos diagonais teriamos a quantidade correta de matrizes resultado. Entretanto existem dois tipos
+de espelhos diagonais, principal e secundário, que ambos deveriam ser aplicados e dividir o resultado pela metade, totalizando 440. 
+Portanto é difícil concluir se esse é o caso ou se algum outro fator está afetando o resultado.
+
+
 
 
 
