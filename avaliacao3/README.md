@@ -41,7 +41,7 @@ Devido ao fato de que todas as possibilidades devem ser testadas(Força Bruta), 
 Portanto dos resultados obtidos podemos considerar que metade deles são espelhos horizontais.
 3520/2 = 1760
 
-**Observação1.** Eliminando os espelhos verticais e horizontais, podemos notar que o resultado total de matrizes é 1760, que dividido por 2 é exatamente 880. 
+**Observação.** Eliminando os espelhos verticais e horizontais, podemos notar que o resultado total de matrizes é 1760, que dividido por 2 é exatamente 880. 
 De certa forma se considerarmos que metade desse resultado(1760) são espelhos diagonais teriamos a quantidade correta de matrizes resultado. Entretanto existem dois tipos
 de espelhos diagonais, principal e secundário, que ambos deveriam ser aplicados e dividir o resultado pela metade, totalizando 440. 
 Portanto é difícil concluir se esse é o caso ou se algum outro fator está afetando o resultado.
